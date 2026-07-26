@@ -154,3 +154,20 @@ html {
       );
     z-index:0;
 }
+
+.social-icons{
+    display:flex;
+    gap:24px;
+    align-items:center;
+}
+
+.social-icons a{
+    color:#94A3B8;
+    font-size:22px;
+    transition:0.3s;
+}
+
+.social-icons a:hover{
+    color:#38BDF8;
+    transform:translateY(-3px);
+}

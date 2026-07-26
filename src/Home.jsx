@@ -1,6 +1,17 @@
 import './Home.css'
 import { useEffect } from 'react';
 
+import Resume from './assets/resume.png';
+import cookify from './assets/cookify.png';
+import CityComplain from './assets/cityComplain.png';
+import LocalService from './assets/localService.jpeg';
+import movieMate from './assets/movieMate.jpeg';
+import skillMatch from './assets/skillMatch.jpeg';
+import taskTracker from './assets/taskTracker.jpg'
+
+import {
+FaGithub,FaLinkedin,FaEnvelope,FaPhoneAlt,} from "react-icons/fa";
+
 function Home(){
 
     useEffect(() => {
@@ -31,6 +42,31 @@ function Home(){
     <a href="#Skills"> Skills</a>
 </div>
         </div>
+        <div className="social-icons ms-5 ps-5 mt-5">
+  <a
+    href="https://github.com/Girinath87"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaGithub />
+  </a>
+
+  <a
+    href="https://www.linkedin.com/in/girinath6565/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaLinkedin />
+  </a>
+
+  <a href="mailto:girinath6565@gmail.com">
+    <FaEnvelope />
+  </a>
+
+  <a href="tel:+919342828230">
+    <FaPhoneAlt />
+  </a>
+</div>
             </div>
             <div className='mt-5 ms-auto me-5'>
                 <h4 className='text-white mb-5' style={{fontFamily : 'fantasy'}} id='About'>ABOUT</h4>
@@ -53,11 +89,17 @@ function Home(){
 
 
 <h4 className='text-white' style={{fontFamily:'fantasy'}} id='Projects'>Projects</h4>
- <div className="project-card mt-5">
+ <div className="project-card mt-5" onClick={() =>
+    window.open(
+      "https://github.com/Girinath87/ResumeGenie-AI-Resume-Assistant",
+      "_blank"
+    )
+  }
+  style={{ cursor: "pointer" }}>
 
-    <img  src="./src/assets/Resume.png" alt="ResumeGenie"className="project-image"/>
+    <img  src={Resume} alt="ResumeGenie"className="project-image"/>
 
-    <div className="project-content">
+    <div className="project-content" >
         <p className="project-title fw-bold">ResumeGenie – AI Resume Assistant</p>
 
         <p className="project-description">
@@ -71,10 +113,16 @@ function Home(){
 </div>
 
 
- <div className="project-card mt-5">
+ <div className="project-card mt-5" onClick={() =>
+    window.open(
+      "https://github.com/Girinath87/TaskTracker",
+      "_blank"
+    )
+  }
+  style={{ cursor: "pointer" }}>
     <img
-        src="./src/assets/TaskTracker.jpg"
-        alt="ResumeGenie"
+        src={taskTracker}
+        alt="TaskTracker"
         className="project-image"
     />
 
@@ -90,10 +138,16 @@ function Home(){
 </div>
 
 
- <div className="project-card mt-5">
+ <div className="project-card mt-5" onClick={() =>
+    window.open(
+      "https://github.com/Girinath87/cookify",
+      "_blank"
+    )
+  }
+  style={{ cursor: "pointer" }}>
     <img
-        src="./src/assets/Cookify.png"
-        alt="ResumeGenie"
+        src={cookify}
+        alt="Cookify"
         className="project-image"
     />
 
@@ -107,14 +161,20 @@ Cookify – Recipe Sharing Website
         </p>
     </div>
 </div>
-<div className="project-card mt-5">
+<div className="project-card mt-5" onClick={() =>
+    window.open(
+      "https://github.com/Girinath87/MovieMate",
+      "_blank"
+    )
+  }
+  style={{ cursor: "pointer" }}>
     <img
-        src="./src/assets/moviemate.jpeg"
-        alt="ResumeGenie"
+        src={movieMate}
+        alt="MovieMate"
         className="project-image"
     />
 
-    <div className="project-content">
+    <div className="project-content" >
         <p className="project-title fw-bold">
 MovieMate – Movie Database Management System            
             </p>
@@ -125,10 +185,16 @@ MovieMate – Movie Database Management System
     </div>
 </div>
 
-<div className="project-card mt-5">
+<div className="project-card mt-5" onClick={() =>
+    window.open(
+      "https://github.com/Girinath87/Local-Service-Search-System",
+      "_blank"
+    )
+  }
+  style={{ cursor: "pointer" }}>
     <img
-        src="./src/assets/Local Service.jpeg"
-        alt="ResumeGenie"
+        src={LocalService}
+        alt="LocalService"
         className="project-image"
     />
 
@@ -143,10 +209,16 @@ Local Service Search System
     </div>
 </div>
 
-<div className="project-card mt-5">
+<div className="project-card mt-5" onClick={() =>
+    window.open(
+      "https://github.com/Girinath87/Skill-Match",
+      "_blank"
+    )
+  }
+  style={{ cursor: "pointer" }}>
     <img
-        src="./src/assets/skillmatch.jpeg"
-        alt="ResumeGenie"
+        src={skillMatch}
+        alt="SkillMatch"
         className="project-image"
     />
 
@@ -161,10 +233,16 @@ Local Service Search System
     </div>
 </div>
 
-<div className="project-card mt-5">
+<div className="project-card mt-5" onClick={() =>
+    window.open(
+      "https://github.com/Girinath87/City-Complaint-Management-System",
+      "_blank"
+    )
+  }
+  style={{ cursor: "pointer" }}>
     <img
-        src="./src/assets/Citycomplain.png"
-        alt="ResumeGenie"
+        src={CityComplain}
+        alt="CityComplain"
         className="project-image"
     />
 
