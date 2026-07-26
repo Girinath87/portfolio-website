@@ -29,20 +29,20 @@ function Home(){
 
     <div className="spotlight"></div>
 
-        
-        <div className='d-flex align-items-start'>
+
+        <div className='d-flex flex-column flex-lg-row align-items-start'>
             <div>
-<div className='ms-5 mt-5 '> 
-    <h1 className='text-white ms-5 fs-1 fw-bold'>GIRINATH P</h1>
-            <p className='text-white ms-5 fw-bold'>Full Stack Developer</p>
-            <p className='text-white ms-5'>I create responsive, fast accessible web applications <br/> using modern technologies and best <br/> development practices.</p>
-            <div className="nav-menu ms-5">
+<div className='ms-3 ms-lg-5 mt-4 mt-lg-5'>
+    <h1 className='text-white ms-3 ms-lg-5 fs-2 fs-lg-1 fw-bold'>GIRINATH P</h1>
+            <p className='text-white ms-3 ms-lg-5 fw-bold'>Full Stack Developer</p>
+            <p className='text-white ms-3 ms-lg-5'>I create responsive, fast accessible web applications <br className="d-none d-lg-inline"/> using modern technologies and best <br className="d-none d-lg-inline"/> development practices.</p>
+            <div className="nav-menu ms-3 ms-lg-5">
     <a href="#About"> About</a>
     <a href="#Projects"> Projects</a>
     <a href="#Skills"> Skills</a>
 </div>
         </div>
-        <div className="social-icons ms-5 ps-5 mt-5">
+        <div className="social-icons ms-3 ms-lg-5 ps-lg-5 mt-4 mt-lg-5">
   <a
     href="https://github.com/Girinath87"
     target="_blank"
@@ -68,22 +68,22 @@ function Home(){
   </a>
 </div>
             </div>
-            <div className='mt-5 ms-auto me-5'>
-                <h4 className='text-white mb-5' style={{fontFamily : 'fantasy'}} id='About'>ABOUT</h4>
-                <p className='light-blue mb-5'>
-    I am a <span className='text-white'>Full Stack Developer</span> with hands-on training in <span className='text-white'>Java Full Stack Development<br/> with Generative AI</span> from <span className='text-white'>NIIT</span>. I have a strong foundation in frontend, backend,<br/> databases, and AI integration, with experience building  complete web applications<br/> that solve real-world problems.
+            <div className='mt-4 mt-lg-5 ms-3 ms-lg-auto me-3 me-lg-5'>
+                <h4 className='text-white mb-4 mb-lg-5' style={{fontFamily : 'fantasy'}} id='About'>ABOUT</h4>
+                <p className='light-blue mb-4 mb-lg-5'>
+    I am a <span className='text-white'>Full Stack Developer</span> with hands-on training in <span className='text-white'>Java Full Stack Development<br className="d-none d-lg-inline"/> with Generative AI</span> from <span className='text-white'>NIIT</span>. I have a strong foundation in frontend, backend,<br className="d-none d-lg-inline"/> databases, and AI integration, with experience building  complete web applications<br className="d-none d-lg-inline"/> that solve real-world problems.
 </p>
 
-<p className='light-blue mb-5'>
-    My technical expertise includes <span className='text-white'>Java, Spring Boot, React.js, TypeScript, JavaScript,<br/> HTML5, CSS3, Bootstrap, MySQL</span>, and <span className='text-white'>MongoDB</span>. I also have experience with<br/> <span className='text-white'>REST APIs, JWT Authentication, Spring Security, Swagger, Postman, Git, GitHub,</span> <br/>and AI technologies such as <span className='text-white'>Groq API, Llama 3</span>, and <span className='text-white'>Prompt Engineering</span>.
+<p className='light-blue mb-4 mb-lg-5'>
+    My technical expertise includes <span className='text-white'>Java, Spring Boot, React.js, TypeScript, JavaScript,<br className="d-none d-lg-inline"/> HTML5, CSS3, Bootstrap, MySQL</span>, and <span className='text-white'>MongoDB</span>. I also have experience with<br className="d-none d-lg-inline"/> <span className='text-white'>REST APIs, JWT Authentication, Spring Security, Swagger, Postman, Git, GitHub,</span> <br className="d-none d-lg-inline"/>and AI technologies such as <span className='text-white'>Groq API, Llama 3</span>, and <span className='text-white'>Prompt Engineering</span>.
 </p>
 
-<p className='light-blue mb-5'>
-    I have developed end-to-end projects including <span className='text-white'>ResumeGenie</span>, an AI-powered<br/> resume optimization platform, <span className='text-white'>TaskTrackr</span>, a smart task management dashboard,<br/> and a <span className='text-white'>City Complaint Management System</span>. These projects strengthened <br/> my skills in full-stack development, microservices, authentication, database <br/>management, and API development.
+<p className='light-blue mb-4 mb-lg-5'>
+    I have developed end-to-end projects including <span className='text-white'>ResumeGenie</span>, an AI-powered<br className="d-none d-lg-inline"/> resume optimization platform, <span className='text-white'>TaskTrackr</span>, a smart task management dashboard,<br className="d-none d-lg-inline"/> and a <span className='text-white'>City Complaint Management System</span>. These projects strengthened <br className="d-none d-lg-inline"/> my skills in full-stack development, microservices, authentication, database <br className="d-none d-lg-inline"/>management, and API development.
 </p>
 
-<p className='light-blue mb-5'>
-    I am seeking an opportunity as a <span className='text-white'>Full Stack Developer</span> where I can contribute<br/> my technical skills, collaborate with experienced professionals, and continue<br/> growing as a software engineer. I am passionate about writing <span className='text-white'>clean, <br/>maintainable code</span> and building impactful applications that deliver value to <br/>users and organizations.
+<p className='light-blue mb-4 mb-lg-5'>
+    I am seeking an opportunity as a <span className='text-white'>Full Stack Developer</span> where I can contribute<br className="d-none d-lg-inline"/> my technical skills, collaborate with experienced professionals, and continue<br className="d-none d-lg-inline"/> growing as a software engineer. I am passionate about writing <span className='text-white'>clean, <br className="d-none d-lg-inline"/>maintainable code</span> and building impactful applications that deliver value to <br className="d-none d-lg-inline"/>users and organizations.
 </p>
 
 
