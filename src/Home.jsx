@@ -1,13 +1,13 @@
 import './Home.css'
 import { useEffect } from 'react';
 
-import Resume from './assets/resume.png';
-import cookify from './assets/cookify.png';
-import CityComplain from './assets/cityComplain.png';
-import LocalService from './assets/localService.jpeg';
-import movieMate from './assets/movieMate.jpeg';
-import skillMatch from './assets/skillMatch.jpeg';
-import taskTracker from './assets/taskTracker.jpg'
+import Resume from "./assets/Resume.png";
+import cookify from "./assets/Cookify.png";
+import CityComplain from "./assets/Citycomplain.png";
+import LocalService from "./assets/localService.jpeg";
+import movieMate from "./assets/moviemate.jpeg";
+import skillMatch from "./assets/skillmatch.jpeg";
+import taskTracker from "./assets/TaskTracker.jpg";
 
 import {
 FaGithub,FaLinkedin,FaEnvelope,FaPhoneAlt,} from "react-icons/fa";
